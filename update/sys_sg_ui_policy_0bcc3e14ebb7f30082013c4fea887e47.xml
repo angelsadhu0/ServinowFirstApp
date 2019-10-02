@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_policy">
+    <sys_sg_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_71768_firstappli_firstapp">u_model_type=others^EQ<item endquery="false" field="u_model_type" goto="false" newquery="false" operator="=" or="false" value="others"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name>Other Field Visibility</name>
+        <order/>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Show the Other field only when Model Type is Other.</short_description>
+        <sys_class_name>sys_sg_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 09:07:21</sys_created_on>
+        <sys_id>0bcc3e14ebb7f30082013c4fea887e47</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Other Field Visibility</sys_name>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_sg_ui_policy_0bcc3e14ebb7f30082013c4fea887e47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 09:12:16</sys_updated_on>
+        <table>x_71768_firstappli_firstapp</table>
+    </sys_sg_ui_policy>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition/>
+        <condition_order/>
+        <item_view display_value="By Request Type item view">5090857feb2f730082013c4fea887e69</item_view>
+        <name>Master Item</name>
+        <screen display_value="By Request Type">6c908dbfeb2f730082013c4fea887ebf</screen>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 10:46:25</sys_created_on>
+        <sys_id>fc908dbfeb2f730082013c4fea887ed4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Master Item</sys_name>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_sg_master_item_fc908dbfeb2f730082013c4fea887ed4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 10:46:25</sys_updated_on>
+        <table>x_71768_firstappli_firstapp</table>
+    </sys_sg_master_item>
+</record_update>

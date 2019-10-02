@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type>
+        <action_type_parent/>
+        <comment>Mobile1 FirstApp Task</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="FirstApp Fulfilment ">6b8001b3eb43730082013c4fea887e4f</flow>
+        <order>3.2.4.1</order>
+        <parent_ui_id>b677fe79-3efe-42fb-bc47-3422359c2f48</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-11 09:15:12</sys_created_on>
+        <sys_id>b2850908eb1f730082013c4fea887ebe</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_hub_action_instance_b2850908eb1f730082013c4fea887ebe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-11 09:24:40</sys_updated_on>
+        <ui_id>679fac03-321c-4774-9cb6-a72a7f9d7163</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b2850908eb1f730082013c4fea887ebe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b2850908eb1f730082013c4fea887ebe</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-11 09:15:12</sys_created_on>
+        <sys_id>b2850908eb1f730082013c4fea887ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-11 09:15:12</sys_updated_on>
+        <value>x_71768_firstappli_firstapp_task</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b2850908eb1f730082013c4fea887ebe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>b2850908eb1f730082013c4fea887ebe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-11 09:15:12</sys_created_on>
+        <sys_id>32850908eb1f730082013c4fea887ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-11 09:15:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>number=FATASK003015{{Created_1.current}}^assigned_to={{f6f65866-aff3-436d-a054-d8a170d64035.answer.assignee}}^due_date={{72f07540-61bb-47a1-a373-ca4aeeb425c4.record.u_whenneeded}}^short_description=Complete Mobile 1 NeedIt Task</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>b2850908eb1f730082013c4fea887ebe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-11 09:15:12</sys_created_on>
+        <sys_id>7e850908eb1f730082013c4fea887ec2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-11 09:15:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

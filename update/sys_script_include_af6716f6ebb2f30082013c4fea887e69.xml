@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_71768_firstappli.GetEmailAddress</api_name>
+        <client_callable>true</client_callable>
+        <description>Getting the sys_id from the client script to fetch the email address</description>
+        <name>GetEmailAddress</name>
+        <script><![CDATA[var GetEmailAddress = Class.create();
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getemail: function(){
+		var userRecord = new GlideRecord("sys_user");
+		userRecord.get(this.getParameter("sysparm_userID"));
+		return userRecord.email + '';
+	},
+
+    type: 'GetEmailAddress'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-26 07:53:35</sys_created_on>
+        <sys_id>af6716f6ebb2f30082013c4fea887e69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetEmailAddress</sys_name>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_script_include_af6716f6ebb2f30082013c4fea887e69</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-26 07:53:35</sys_updated_on>
+    </sys_script_include>
+</record_update>

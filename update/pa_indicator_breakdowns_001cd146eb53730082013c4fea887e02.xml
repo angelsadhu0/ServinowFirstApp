@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="FirstApp Assigned To">c41c9146eb53730082013c4fea887efe</breakdown>
+        <display>true</display>
+        <indicator display_value="FirstApp: Active weekly">728605c6eb13730082013c4fea887ede</indicator>
+        <order/>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-17 16:01:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>001cd146eb53730082013c4fea887e02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FirstApp Assigned To.FirstApp: Active weekly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_001cd146eb53730082013c4fea887e02</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-17 16:01:26</sys_updated_on>
+    </pa_indicator_breakdowns>
+</record_update>

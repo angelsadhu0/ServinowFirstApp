@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_application">
+    <sys_sg_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <default>false</default>
+        <description>To view and edit FirstApp records</description>
+        <icon display_value="list-alt">35903b1bebef330082013c4fea887e2f</icon>
+        <name>FirstApp</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_sg_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-03 10:18:30</sys_created_on>
+        <sys_id>96903b1bebef330082013c4fea887e33</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>FirstApp</sys_name>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_sg_application_96903b1bebef330082013c4fea887e33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 09:16:37</sys_updated_on>
+    </sys_sg_application>
+    <sys_translated_text action="delete_multiple" query="documentkey=96903b1bebef330082013c4fea887e33"/>
+</record_update>

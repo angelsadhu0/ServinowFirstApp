@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="FirstApp Task" max_length="40" name="x_71768_firstappli_firstapp_task" sizeclass="829" type="collection"/>
+</database>

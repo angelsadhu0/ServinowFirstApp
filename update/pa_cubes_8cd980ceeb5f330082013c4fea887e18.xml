@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="INSERT_OR_UPDATE">
+        <benchmarking>false</benchmarking>
+        <conditions table="x_71768_firstappli_firstapp">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </conditions>
+        <description>Active FirstApp requests this week</description>
+        <facts_table>x_71768_firstappli_firstapp</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>20</frequency>
+        <name>FirstAppActiveWeekly</name>
+        <report_source display_value="Active FirstApp Requests (FirstApp)">820a3875eb57330082013c4fea887ed8</report_source>
+        <report_source_updated_at>2019-08-17 17:03:32</report_source_updated_at>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-17 10:04:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8cd980ceeb5f330082013c4fea887e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FirstAppActiveWeekly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>pa_cubes_8cd980ceeb5f330082013c4fea887e18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-17 10:04:17</sys_updated_on>
+    </pa_cubes>
+    <sys_translated_text action="delete_multiple" query="documentkey=8cd980ceeb5f330082013c4fea887e18"/>
+</record_update>

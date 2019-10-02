@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>assigned_to</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>To Populate email field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '' || newValue == oldValue) {
+      return;
+   }
+	
+	var getemailadd = new GlideAjax("GetEmailAddress");
+	getemailadd.addParam('sysparm_name','getemail');
+	getemailadd.addParam('sysparm_userID',g_form.getValue('assigned_to'));
+	getemailadd.getXML(populateEmail);
+	
+	function populateEmail(response){
+		var fromscriptinclude = response.responseXML.documentElement.getAttribute("answer");
+		g_form.clearValue("u_requested_email");
+		g_form.setValue("u_requested_email",fromscriptinclude);
+	}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-26 08:32:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6c91e3aebb2f30082013c4fea887edb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>To Populate email field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_script_client_b6c91e3aebb2f30082013c4fea887edb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-26 08:57:22</sys_updated_on>
+        <table>x_71768_firstappli_firstapp</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

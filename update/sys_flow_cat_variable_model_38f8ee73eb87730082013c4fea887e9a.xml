@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>70f8ee73eb87730082013c4fea887e9a</id>
+        <name>FirstApp Fulfilment </name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-08-10 21:51:02</sys_created_on>
+        <sys_id>38f8ee73eb87730082013c4fea887e9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FirstApp Fulfilment </sys_name>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_38f8ee73eb87730082013c4fea887e9a</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-08-10 21:51:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

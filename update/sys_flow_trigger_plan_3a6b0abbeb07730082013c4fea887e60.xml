@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>6b8001b3eb43730082013c4fea887e4f</plan_id>
+        <snapshot>ae6b0abbeb07730082013c4fea887e23</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-10 19:42:00</sys_created_on>
+        <sys_id>3a6b0abbeb07730082013c4fea887e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3a6b0abbeb07730082013c4fea887e5e</sys_name>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_3a6b0abbeb07730082013c4fea887e60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-10 19:42:00</sys_updated_on>
+        <trigger display_value="">3a6b0abbeb07730082013c4fea887e5e</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

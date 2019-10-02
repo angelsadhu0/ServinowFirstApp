@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Step to fulfil FirstApp Requests.</description>
+        <internal_name>firstapp_fulfilment</internal_name>
+        <label_cache>[{"name":"cefcfba9-5bec-4d60-bea4-51dd76a08831.Table","label":"3.2.6.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"cefcfba9-5bec-4d60-bea4-51dd76a08831.Record","label":"3.2.6.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"72f07540-61bb-47a1-a373-ca4aeeb425c4.record.u_whenneeded","label":"3.1➛FirstApp Record➛When Needed","reference":"","reference_display":"When Needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_71768_firstappli_firstapp","column_name":"u_whenneeded"},{"name":"679fac03-321c-4774-9cb6-a72a7f9d7163.Table","label":"3.2.4.1➛FirstApp Task Table","reference":"x_71768_firstappli_firstapp_task","reference_display":"FirstApp Task","type":"table_name","base_type":"table_name"},{"name":"679fac03-321c-4774-9cb6-a72a7f9d7163.Record","label":"3.2.4.1➛FirstApp Task Record","reference":"x_71768_firstappli_firstapp_task","reference_display":"FirstApp Task","type":"reference","base_type":"reference"},{"name":"19a0863a-bca4-4eca-b359-4febec5afb06.record.u_whenneeded","label":"1➛FirstApp Record➛When Needed","reference":"","reference_display":"When Needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_71768_firstappli_firstapp","column_name":"u_whenneeded"},{"name":"f6f65866-aff3-436d-a054-d8a170d64035.answer.assignee","label":"3.2➛Assignee Category Record➛Assignee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_71768_firstappli_assignee_category","column_name":"assignee"},{"name":"Created_1.current.number","label":"Trigger➛FirstApp Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_71768_firstappli_firstapp","column_name":"number"},{"name":"c825795c-eb4a-42ce-abf0-0efbc6111a77.Table","label":"3.2.1.1➛FirstApp Task Table","reference":"x_71768_firstappli_firstapp_task","reference_display":"FirstApp Task","type":"table_name","base_type":"table_name"},{"name":"c825795c-eb4a-42ce-abf0-0efbc6111a77.Record","label":"3.2.1.1➛FirstApp Task Record","reference":"x_71768_firstappli_firstapp_task","reference_display":"FirstApp Task","type":"reference","base_type":"reference"},{"name":"f6f65866-aff3-436d-a054-d8a170d64035.answer","label":"3.2➛Assignee Category Record","reference":"x_71768_firstappli_assignee_category","reference_display":"Assignee Category","type":"reference","base_type":"reference"},{"name":"Created_1.current.priority","label":"Trigger➛FirstApp Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_71768_firstappli_firstapp","column_name":"priority"},{"name":"Created_1.current.u_model_type","label":"Trigger➛FirstApp Record➛Model Type","reference":"","reference_display":"Model Type","type":"choice","base_type":"choice","parent_table_name":"x_71768_firstappli_firstapp","column_name":"u_model_type"},{"name":"Created_1.current.u_request_type","label":"Trigger➛FirstApp Record➛Request Type","reference":"","reference_display":"Request Type","type":"choice","base_type":"choice","parent_table_name":"x_71768_firstappli_firstapp","column_name":"u_request_type"},{"name":"dd12d26d-9ee7-4695-b993-ce70080c5e8e.table_name","label":"4.1➛FirstApp Table","reference":"x_71768_firstappli_firstapp","reference_display":"FirstApp","type":"table_name","base_type":"table_name"},{"name":"dd12d26d-9ee7-4695-b993-ce70080c5e8e.record","label":"4.1➛FirstApp Record","reference":"x_71768_firstappli_firstapp","reference_display":"FirstApp","type":"reference","base_type":"reference"},{"name":"72f07540-61bb-47a1-a373-ca4aeeb425c4.table_name","label":"3.1➛FirstApp Table","reference":"x_71768_firstappli_firstapp","reference_display":"FirstApp","type":"table_name","base_type":"table_name"},{"name":"72f07540-61bb-47a1-a373-ca4aeeb425c4.record","label":"3.1➛FirstApp Record","reference":"x_71768_firstappli_firstapp","reference_display":"FirstApp","type":"reference","base_type":"reference"},{"name":"9fc34a0a-ecde-46f2-b399-4d8c007101dd.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"9fc34a0a-ecde-46f2-b399-4d8c007101dd.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"19a0863a-bca4-4eca-b359-4febec5afb06.record.assigned_to.manager","label":"1➛FirstApp Record➛Assigned To➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.assigned_to.manager","label":"Trigger➛FirstApp Record➛Assigned To➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"899437c7-870b-45be-b659-4a137e2ea65d.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"001262ee-3878-45fa-929a-9ffe39528325.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"001262ee-3878-45fa-929a-9ffe39528325.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"19a0863a-bca4-4eca-b359-4febec5afb06.record","label":"1➛FirstApp Record","reference":"x_71768_firstappli_firstapp","reference_display":"FirstApp","type":"reference","base_type":"reference"},{"name":"19a0863a-bca4-4eca-b359-4febec5afb06.table_name","label":"1➛FirstApp Table","reference":"x_71768_firstappli_firstapp","reference_display":"FirstApp","type":"table_name","base_type":"table_name"},{"name":"Created_1.current","label":"Trigger➛FirstApp Record","reference":"x_71768_firstappli_firstapp","reference_display":"FirstApp","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>ae6b0abbeb07730082013c4fea887e23</latest_snapshot>
+        <master_snapshot>ae6b0abbeb07730082013c4fea887e23</master_snapshot>
+        <name>FirstApp Fulfilment </name>
+        <outputs/>
+        <remote_trigger_id>3a6b0abbeb07730082013c4fea887e5e</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-10 14:14:55</sys_created_on>
+        <sys_id>6b8001b3eb43730082013c4fea887e4f</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>FirstApp Fulfilment </sys_name>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_hub_flow_6b8001b3eb43730082013c4fea887e4f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-11 09:24:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6b8001b3eb43730082013c4fea887e4f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6b8001b3eb43730082013c4fea887e4f"/>
+</record_update>

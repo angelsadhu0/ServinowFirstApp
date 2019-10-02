@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>CountOverdueFirstAppTaskAssignedTo</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          var rightnow = new GlideDateTime();
+	var overdue = new GlideRecord('x_71768_firstappli_firstapp_task');
+	overdue.addQuery('due_date','<=',rightnow);
+	overdue.addQuery('state','<',3);
+	overdue.addQuery('assigned_to',current.assigned_to);
+	
+	overdue.query();
+	
+	// Print to the Message field on a notification 
+	template.print("In addition to this overdue First App Task, you have " + (overdue.getRowCount() - 1) + " more overdue Tasks.");
+	
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 18:46:18</sys_created_on>
+        <sys_id>e72e8d26eb83330082013c4fea887ea6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CountOverdueFirstAppTaskAssignedTo</sys_name>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_script_email_e72e8d26eb83330082013c4fea887ea6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 18:46:18</sys_updated_on>
+    </sys_script_email>
+</record_update>

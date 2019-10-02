@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="FirstApp - Last Quarter">4f68b75febef330082013c4fea887ebc</data_item>
+        <description>FirstApp records from Last Quarter</description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="map">54ac58f7ebeb730082013c4fea887ef4</icon>
+        <item_view display_value="FirstApp - Last Quarter detail item view">b4ac58f7ebeb730082013c4fea887ef9</item_view>
+        <name>Details</name>
+        <order>10</order>
+        <parent>51ac58b7ebeb730082013c4fea887ee8</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 08:09:27</sys_created_on>
+        <sys_id>29ac58f7ebeb730082013c4fea887efc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_sg_details_screen_29ac58f7ebeb730082013c4fea887efc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 08:10:42</sys_updated_on>
+    </sys_sg_details_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=29ac58f7ebeb730082013c4fea887efc"/>
+</record_update>

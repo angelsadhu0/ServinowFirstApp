@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type>
+        <action_type_parent/>
+        <comment>firstApp Task Desktop1</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="FirstApp Fulfilment ">6b8001b3eb43730082013c4fea887e4f</flow>
+        <order>3.2.6.1</order>
+        <parent_ui_id>e337c2e5-b96e-4f7f-8699-d7b825a8e9ab</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-11 09:15:13</sys_created_on>
+        <sys_id>43850908eb1f730082013c4fea887ed3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+        <sys_update_name>sys_hub_action_instance_43850908eb1f730082013c4fea887ed3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-11 09:24:41</sys_updated_on>
+        <ui_id>cefcfba9-5bec-4d60-bea4-51dd76a08831</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=43850908eb1f730082013c4fea887ed3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>43850908eb1f730082013c4fea887ed3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-11 09:15:13</sys_created_on>
+        <sys_id>43850908eb1f730082013c4fea887ed8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-11 09:15:13</sys_updated_on>
+        <value>x_71768_firstappli_firstapp_task</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=43850908eb1f730082013c4fea887ed3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>43850908eb1f730082013c4fea887ed3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-11 09:15:13</sys_created_on>
+        <sys_id>cf850908eb1f730082013c4fea887ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-11 09:15:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>number=FATASK003015{{Created_1.current}}^assigned_to={{f6f65866-aff3-436d-a054-d8a170d64035.answer.assignee}}^due_date={{19a0863a-bca4-4eca-b359-4febec5afb06.record.u_whenneeded}}^short_description=Complete Desktop 1 First App Task</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>43850908eb1f730082013c4fea887ed3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-11 09:15:13</sys_created_on>
+        <sys_id>0f850908eb1f730082013c4fea887ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-11 09:15:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
