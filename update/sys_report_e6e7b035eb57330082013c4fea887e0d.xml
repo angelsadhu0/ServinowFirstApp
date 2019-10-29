@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby>u_model_type,assigned_to</additional_groupby>
         <aggregate>COUNT</aggregate>
@@ -101,6 +101,8 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-16 18:45:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>e6e7b035eb57330082013c4fea887e0d</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>FirstApp Request by type</sys_name>

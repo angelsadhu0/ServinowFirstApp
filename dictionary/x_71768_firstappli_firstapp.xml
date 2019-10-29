@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="FirstApp" max_length="40" name="x_71768_firstappli_firstapp" sizeclass="1204" type="collection">
+    <element extends="task" label="FirstApp" max_length="40" name="x_71768_firstappli_firstapp" sizeclass="1211" type="collection">
         <element attributes="target_field=percent_complete_target,target_threshold_colors=0:color1;33:color2;66:color3;90:color4,target_field=target&#13;&#10;" label="% complete" max_length="15" name="complete" type="percent_complete"/>
         <element label="Target" max_length="20" name="target" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Model Type" mandatory="true" max_length="40" name="u_model_type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Facilities 1" sequence="0" value="Facilities 1"/>
-                <element inactive_on_update="false" label="Human Resources 2" sequence="0" value="Human Resources 2"/>
-                <element inactive_on_update="false" label="Legal 1" sequence="0" value="Legal 1"/>
-                <element inactive_on_update="false" label="Legal 2" sequence="0" value="Legal 2"/>
+                <element inactive="true" inactive_on_update="true" label="Facilities 1" sequence="0" value="Facilities 1"/>
                 <element inactive_on_update="false" label="Mobile 1" sequence="0" value="mb1"/>
-                <element inactive_on_update="false" label="Other" sequence="0" value="Other"/>
+                <element inactive="true" inactive_on_update="true" label="Human Resources 2" sequence="1" value="Human Resources 2"/>
                 <element inactive_on_update="false" label="Mobile 2" sequence="1" value="mb2"/>
                 <element inactive_on_update="false" label="Laptop 1" sequence="2" value="lp1"/>
+                <element inactive="true" inactive_on_update="true" label="Legal 1" sequence="2" value="Legal 1"/>
                 <element inactive_on_update="false" label="Laptop 2" sequence="3" value="lp2"/>
+                <element inactive="true" inactive_on_update="true" label="Legal 2" sequence="3" value="Legal 2"/>
                 <element inactive_on_update="false" label="Desktop 1" sequence="4" value="dsktp1"/>
+                <element inactive="true" inactive_on_update="true" label="Other" sequence="4" value="Other"/>
                 <element inactive_on_update="false" label="Desktop 2" sequence="5" value="dsktp2"/>
                 <element inactive_on_update="false" label="Others" sequence="6" value="others"/>
             </choice>
@@ -24,11 +24,18 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Facilities" sequence="0" value="Facilities"/>
+                <element inactive="true" inactive_on_update="true" label="Facilities" sequence="0" value="Facilities"/>
+                <element inactive_on_update="false" label="Mobile" sequence="0" value="mobile"/>
                 <element inactive_on_update="false" label="Mobile" sequence="0" value="mobile"/>
                 <element inactive="true" inactive_on_update="true" label="Human Resources" sequence="1" value="Human Resources"/>
+                <element inactive="true" inactive_on_update="true" label="Human Resources" sequence="1" value="Human Resources"/>
+                <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
                 <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
                 <element inactive_on_update="false" label="Desktop" sequence="2" value="desktop"/>
+                <element inactive_on_update="false" label="Desktop" sequence="2" value="desktop"/>
                 <element inactive="true" inactive_on_update="true" label="Legal" sequence="2" value="Legal"/>
+                <element inactive="true" inactive_on_update="true" label="Legal" sequence="2" value="Legal"/>
+                <element inactive_on_update="false" label="TPS Report" sequence="3" value="TPS Report"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="When Needed" max_length="40" name="u_whenneeded" type="glide_date_time"/>

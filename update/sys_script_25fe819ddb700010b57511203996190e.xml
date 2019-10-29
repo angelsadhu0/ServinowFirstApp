@@ -5,20 +5,20 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_71768_firstappli_firstapp</collection>
+        <collection>x_71768_firstappli_firstapp_task</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Set State to Awaiting Approval</name>
+        <name>Domain - Set Domain - FirstApp Task</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -27,28 +27,33 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[syncDomainFromNeedIt();
+
+function syncDomainFromNeedIt() {
 	
-	current.state = 2;
-	
-})(current, previous);]]></script>
+	// Set the Domain for the NeedIt Task from the Domain of the parent NeedIt record.
+	if (current.FirstApplication.changes()) {
+		current.sys_domain = current.FirstApplication.sys_domain;
+		return;
+	}
+}]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-08-01 07:15:27</sys_created_on>
+        <sys_created_on>2019-10-28 20:53:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4a470138eb4f330082013c4fea887e26</sys_id>
+        <sys_id>25fe819ddb700010b57511203996190e</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>Set State to Awaiting Approval</sys_name>
+        <sys_name>Domain - Set Domain - FirstApp Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
         <sys_policy/>
         <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
-        <sys_update_name>sys_script_4a470138eb4f330082013c4fea887e26</sys_update_name>
+        <sys_update_name>sys_script_25fe819ddb700010b57511203996190e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-29 11:07:59</sys_updated_on>
+        <sys_updated_on>2019-10-28 21:16:06</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=4a470138eb4f330082013c4fea887e26"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=25fe819ddb700010b57511203996190e"/>
 </record_update>

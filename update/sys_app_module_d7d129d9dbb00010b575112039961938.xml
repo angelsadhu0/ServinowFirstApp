@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <application display_value="FirstApp">d33d15f1ebf6330082013c4fea887ea6</application>
         <assessment/>
         <content_page/>
@@ -9,33 +9,33 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>NEW</link_type>
         <map_page/>
-        <mobile_title>Properties</mobile_title>
+        <mobile_title>FirstApp Properties</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>900</order>
+        <name>x_71768_firstappli_firstapp_properties</name>
+        <order>950</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>system_properties_ui.do?sysparm_title=FirstApp Properties&amp;sysparm_category=FirstApp Properties</query>
+        <query/>
         <report/>
-        <roles>x_58872_needit.admin</roles>
+        <roles>x_71768_firstappli.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-08-07 15:50:29</sys_created_on>
+        <sys_created_on>2019-10-28 22:05:32</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9248f53aeb8f330082013c4fea887e60</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Properties</sys_name>
+        <sys_id>d7d129d9dbb00010b575112039961938</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>FirstApp Properties domains</sys_name>
         <sys_overrides/>
         <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
         <sys_policy/>
         <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
-        <sys_update_name>sys_app_module_9248f53aeb8f330082013c4fea887e60</sys_update_name>
+        <sys_update_name>sys_app_module_d7d129d9dbb00010b575112039961938</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-28 22:16:44</sys_updated_on>
+        <sys_updated_on>2019-10-29 08:19:33</sys_updated_on>
         <timeline_page/>
-        <title>Properties</title>
+        <title>FirstApp Properties domains</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

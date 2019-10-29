@@ -35,6 +35,8 @@
         <state>available</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-07 14:31:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>3e87293eeb4f330082013c4fea887ecb</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>system</sys_updated_by>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sys_overrides" label="Overrides" language="en" table="x_71768_firstappli_firstapp_properties">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sys_overrides</element>
+            <help/>
+            <hint/>
+            <label>Overrides</label>
+            <language>en</language>
+            <name>x_71768_firstappli_firstapp_properties</name>
+            <plural>Overrides</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-28 22:13:19</sys_created_on>
+            <sys_id>9da32d1ddbb00010b57511203996198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Overrides</sys_name>
+            <sys_package display_value="FirstApplication" source="x_71768_firstappli">78fbd5f9ebb6330082013c4fea887ede</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="FirstApplication">78fbd5f9ebb6330082013c4fea887ede</sys_scope>
+            <sys_update_name>sys_documentation_x_71768_firstappli_firstapp_properties_sys_overrides_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-28 22:13:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

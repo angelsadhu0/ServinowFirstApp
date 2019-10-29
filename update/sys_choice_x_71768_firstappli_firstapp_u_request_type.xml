@@ -114,6 +114,139 @@
             <sys_updated_on>2019-08-17 18:18:06</sys_updated_on>
             <value>Legal</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Facilities</label>
+            <language>en</language>
+            <name>x_71768_firstappli_firstapp</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-25 18:00:47</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!&amp;/</sys_domain_path>
+            <sys_id>b81d8d14db300010b57511203996197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-25 18:00:47</sys_updated_on>
+            <value>Facilities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile</label>
+            <language>en</language>
+            <name>x_71768_firstappli_firstapp</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-25 18:00:46</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!&amp;/</sys_domain_path>
+            <sys_id>f01d0d90db300010b57511203996191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-25 18:00:46</sys_updated_on>
+            <value>mobile</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Human Resources</label>
+            <language>en</language>
+            <name>x_71768_firstappli_firstapp</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-25 18:00:47</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!&amp;/</sys_domain_path>
+            <sys_id>741d8d14db300010b57511203996197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-25 18:00:47</sys_updated_on>
+            <value>Human Resources</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laptop</label>
+            <language>en</language>
+            <name>x_71768_firstappli_firstapp</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-25 18:00:46</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!&amp;/</sys_domain_path>
+            <sys_id>381d8d14db300010b575112039961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-25 18:00:46</sys_updated_on>
+            <value>laptop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Desktop</label>
+            <language>en</language>
+            <name>x_71768_firstappli_firstapp</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-25 18:00:46</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!&amp;/</sys_domain_path>
+            <sys_id>f01d8d14db300010b575112039961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-25 18:00:46</sys_updated_on>
+            <value>desktop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Legal</label>
+            <language>en</language>
+            <name>x_71768_firstappli_firstapp</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-25 18:00:47</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!&amp;/</sys_domain_path>
+            <sys_id>301d8d14db300010b575112039961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-25 18:00:47</sys_updated_on>
+            <value>Legal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TPS Report</label>
+            <language>en</language>
+            <name>x_71768_firstappli_firstapp</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-25 18:00:47</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!&amp;/</sys_domain_path>
+            <sys_id>fc1d8d14db300010b57511203996197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-25 18:00:47</sys_updated_on>
+            <value>TPS Report</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_request_type</element>
             <name>x_71768_firstappli_firstapp</name>
